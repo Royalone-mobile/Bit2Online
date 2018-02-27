@@ -1,0 +1,44 @@
+// var entries = require('object.entries');
+
+// const server = require('net').createServer();  
+// let counter = 0;  
+// let sockets = {};
+
+// server.on('connection', socket => {  
+//   console.log('counter='+counter);
+//   socket.id = counter++;
+//   sockets[socket.id] = socket;
+
+//   console.log('A client is connected');
+//   socket.write('Welcome new client!\n');
+//   socket.on('error', (err)=>{
+//     throw err;
+//   	// if (err.code === 'EADDRINUSE') {
+//    //  console.log('Address in use, retrying...');
+//    //  setTimeout(() => {
+//    //    server.close();
+//    //    server.listen(3000, '127.0.0.1');
+//    //  }, 1000);
+//   // }
+
+//   });
+//   socket.on('data', data => {
+//   	console.log('onData');
+//     entries(sockets).forEach(([, cs]) => {
+//       cs.write(`${socket.id}: `);
+//       cs.write(data);
+//     });
+//   });
+
+//   socket.on('end', () => {
+//     console.log('Client disconnected');
+//     delete sockets[sockets.id];
+//   })
+// });
+
+// server.listen(3001, () => console.log('Server bound'));  
+
+
+
+
+https://itunes.apple.com/hk/app/%E6%B1%BA%E6%88%B0%E9%8B%A4%E5%A4%A7d-online-big-2-poker/id528600084?mt=8
